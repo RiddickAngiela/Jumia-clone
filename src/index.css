@@ -84,3 +84,7 @@ div {
   text-rendering: auto;
   text-transform: none;
 }
+
+.home{
+  background-color: blueviolet;
+}
