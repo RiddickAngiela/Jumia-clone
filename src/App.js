@@ -1,11 +1,19 @@
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import About from "./components/About";
+import Contact from './components/Contact';
+import Navbar from "./components/Navbar"
+
+
+
 
 
 function App() {
   return (
     <div className="App">
-      app
+      <Navbar />
+       <About />
+      <Contact />
     </div>
   );
 }
