@@ -86,5 +86,58 @@ div {
 }
 
 .home{
-  background-color: blueviolet;
+  background-color: #aac5ff;
+  height: 100vh;
+}
+
+.home-container{
+  margin: 0px 320px;
+  padding: 5px;
+}
+
+.one{
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+}
+
+.home-nav{
+  flex: 0.6;
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-item{
+  display: flex;
+  align-items: center;
+  gap: 2px;
+  font-weight: 300;
+}
+
+.top-slider{
+  flex: 2;
+  border-radius: 5px;
+}
+
+.short-links{
+  flex: 0.6;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.short-top{
+  flex: 1;
+  background-color: red;
+  border-radius: 5px;
+}
+
+.short-bottom{
+  flex: 1;
+  background-color: blue;
+  border-radius: 5px;
 }
