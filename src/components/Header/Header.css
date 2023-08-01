@@ -1,0 +1,95 @@
+.header{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    height: 50px;
+    background-color: #fb9900;
+    padding: 0px 330px 10px;
+}
+
+.middle{
+    height: 25px;
+    background-color: #f1f1f2;
+    padding: 0px 330px;
+    display: flex;
+    flex-direction: row;
+}
+
+.left{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    text-transform: capitalize;
+    color: #fb9900;
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.right{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.bottom{
+    height: 50px;
+    background-color: #ffffff;
+    padding: 0px 330px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo{
+    flex: 1;
+}
+
+form.nosubmit{
+    flex: 3;
+    border: none;
+    padding: 0;
+    display: flex;
+    gap: 7px;
+}
+
+input.nosubmit{
+    border: 1px solid #a5a5a8;
+    width: 100%;
+    padding: 10px 4px 10px 40px;
+    background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button.nosubmit{
+    border: none;
+    border-radius: 5px;
+    width: 110px;
+    font-size: 16px;
+    text-transform: uppercase;
+    background-color: #fb9900;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.bottom-a{
+    flex: 1.5;
+    background-color: red;
+    display: flex;
+}
+
+.account{
+    flex: 1;
+}
+
+.help{
+    flex: 1;
+}
+
+.cart{
+    flex: 1;
+}
