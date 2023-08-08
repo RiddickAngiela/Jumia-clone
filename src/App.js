@@ -5,8 +5,8 @@ import {
 } from "react-router-dom";
 import Home from './pages/home/Home'
 import ContactUs from './pages/contact-us/ContactUs'
-import Header from './components/Header/Header'
-import Footer from './components/Footer/Footer'
+import Header from './components/Header'
+// import Footer from './components/Footer/Footer'
 import AboutUs from './pages/about-us/AboutUs'
 import Appliances from './pages/Appliances/Appliances'
 import BabyProducts from './pages/Baby-Products/BabyProducts'
@@ -24,7 +24,7 @@ const Layout = () => {
     <div>
       <Header />
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
