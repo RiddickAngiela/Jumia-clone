@@ -7,8 +7,8 @@ const Header = ({ src }) => {
   return (
     <header style={headingStyle}>
         <div style={adStyle}>
-            <div style={{margin: '0px 330px'}}>
-                <Image image={src} /> 
+            <div style={imageStyle}>
+                <Image image={src} borderRadius={0} /> 
             </div>             
         </div>  
         <div style={heroStyle}>
@@ -31,6 +31,13 @@ const headingStyle={
 const adStyle={
     backgroundColor: '#fb9900',
 }
+
+const imageStyle = {
+  marginTop: '0px',
+  marginBottom: '0px',
+  marginLeft: `min(330px)`,
+  marginRight: `min(330px)`,
+};
 
 const heroStyle={
     backgroundColor: 'white'

@@ -14,7 +14,9 @@ const UserAccount = () => {
 
 const accountStyle={
   display: 'flex',
-  gap: '5px',
+  gap: '20px',
+  fontSize: '18px',
+  padding: '12px',
 }
 
 export default UserAccount
